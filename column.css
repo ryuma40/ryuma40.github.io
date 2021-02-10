@@ -1,0 +1,220 @@
+header {
+  background-color: black;
+  position: relative;
+}
+.header-left a,.header-right a {
+  color: white;
+}
+.sns {
+  position: absolute;
+  top: 150px;
+  right: 70px
+}
+body {
+  margin: 0;
+}
+.container {
+  margin: 0;
+  height: auto;
+  text-align: center;
+}
+.container h2 {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+img {
+
+  margin: 0 auto;
+  width: 1039px;
+  height: auto;
+}
+p {
+  height: 500px;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: #333;
+}
+footer {
+  margin:  0 auto;
+  background-color: black;
+}
+.footer-right {
+  margin: 25px 0 110px 0;
+}
+.footer-right a {
+  color: white;
+}
+/* 上に戻るボタン */
+.pagetop {
+	color: #fff;
+	background-color: rgba(0,0,0,0.3);
+	text-decoration: none;
+	display: none;
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	font-size: 1.5rem;
+	width: 3.3rem;
+	height: 3.3rem;
+	line-height: 3.3rem;
+	border-radius: 3.3rem;
+	text-align: center;
+	cursor: pointer;
+}
+.pagetop:hover {
+	color: #fff !important;
+	background-color: black;
+	text-decoration: none;
+}/* 上に戻るボタン */
+/* レスポンシブデザイン for pad*/
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .header-left {
+    padding: 20px;
+    margin-right: 500px;
+  }
+  .header-right {
+    margin-top: 20px;
+  }
+  .fa.fa-facebook {
+    margin-left: 0;
+  }
+  .header-list {
+    margin-top: 20px;
+  }
+  .top-wrapper {
+    /* background-color: white; */
+    height: auto;
+  }
+  .container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .container img {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .comment {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    text-align: left;
+    float: none;
+  }
+  p {
+    height: auto;
+  }
+  .text-wrapper, .runway-wrapper, .column-wrapper {
+    width: auto;
+  }
+  .spring, .autumn, .text-icon {
+    float: none;
+    height: auto;
+  }
+  .text-icon img {
+    width: 350px;
+    height: auto;
+  }
+  img {
+    float: none;
+    display: block;
+    margin:  0 auto;
+    padding-right: 0;
+  }
+  br {
+    display: none;
+  }
+  footer {
+    text-align: center;
+  }
+  .footer-list {
+    padding-left: 0;
+  }
+}
+/* レスポンシブデザイン for mobile phone*/
+@media only all and (max-width: 599px) {
+  .header-left {
+    padding: 20px;
+    /* margin-right: 500px; */
+    position: static;
+  }
+  .header-right {
+    margin-top: 20px;
+  }
+  .sns {
+    position: absolute;
+    /* top: 170px; */
+    right: 0;
+  }
+  .fa.fa-facebook {
+    margin-left: 0;
+  }
+  .header-list {
+    margin-top: 20px;
+  }
+  .top-wrapper {
+    /* background-color: white; */
+    height: auto;
+  }
+  .container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .container img {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  p {
+    height: auto;
+  }
+  .comment {
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    text-align: left;
+    float: none;
+  }
+  br {
+    display: none;
+  }
+  .comment br {
+    display: none;
+  }
+  .text-wrapper, .runway-wrapper, .column-wrapper {
+    width: auto;
+  }
+  .spring, .autumn, .text-icon {
+    float: none;
+    height: auto;
+  }
+  .text-icon img {
+    width: 250px;
+    height: auto;
+  }
+  img {
+    float: none;
+    display: block;
+    margin:  0 auto;
+    padding-right: 0;
+  }
+  footer {
+    text-align: center;
+  }
+  .footer-list {
+    padding-left: 0;
+  }
+  .footer-list li {
+    padding-right: 10px;
+  }
+}
