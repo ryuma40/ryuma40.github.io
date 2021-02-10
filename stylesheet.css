@@ -1,0 +1,323 @@
+header {
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  /* max-width: 960px; */
+}
+.header-left {
+  float: left;
+  /* padding: 70px 0 100px 200px; */
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  color: #222222;
+  position: absolute;
+  top: 70px;
+  left: 70px;
+}
+.header-left a {
+  text-decoration: none;
+  color: #222222;
+}
+.header-left a:hover {
+  opacity: .5;
+}
+.header-right {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  /* margin-top: 110px; */
+  /* position: absolute;
+  top: 100px;
+  left: 800px; */
+}
+.header-right a,.footer-right a {
+  padding-right: 10px;
+  text-decoration: none;
+  color: #333;
+}
+.header-right a:hover,.footer-right a:hover {
+  text-decoration: underline;
+  opacity: .5;
+}
+.sns {
+  position: absolute;
+  top: 150px;
+  right: 70px
+}
+.btn {
+  color: #808080;
+  font-size: 22px;
+}
+.btn:hover {
+  opacity: .5;
+}
+.link {
+  color: #808080;
+  text-decoration: none;
+}
+.link:hover {
+  opacity: .5;
+}
+.header-list, .footer-list {
+  list-style: none;
+}
+.header-list {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+}
+.header-list li, .footer-list li {
+  float: left;
+  padding-right: 30px;
+  font-size: 14px;
+}
+.top-wrapper {
+  width: auto;
+  height: 400px;
+  text-align: center;
+  background-color: #DDDDDD;
+}
+.fa, .fas, .material-icons {
+  color: #666;
+}
+.matearial-icons {
+  font-size: 48px;
+}
+.fa.fa-facebook {
+/* margin-left: 300px; */
+}
+.title-contents li {
+  padding-right: 500px;
+  width: 100%;
+}
+.top-wrapper img {
+  height: 400px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-wrapper {
+  text-align: center;
+  height: auto;
+  width: 1200px;
+  font-family: sans-serif;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+.section-title {
+  letter-spacing: 3px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: #222222;
+  margin-bottom: 20;
+}
+.comment {
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 13px;
+}
+.spring {
+  height: 600px;
+  float: left;
+}
+.autumn {
+  height: 600px;
+  float: left;
+}
+.text-contents {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.text-icon {
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  float: left;
+}
+.text-icon img {
+  width: 350px;
+  height: auto;
+}
+.season-title {
+  font-weight: lighter;
+  font-size: 12px;
+  color: #222222;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.runway-wrapper {
+  width: 1200px;
+  height: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+.column-wrapper {
+  width: 1200px;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+footer {
+  height: 300px;
+  width: auto;
+}
+.footer-right {
+  display: inline-block;
+  float: right;
+  padding: 0;
+}
+.footer-list {
+  margin-top: 25px;
+  margin-right: 120px;
+}
+/* 上に戻るボタン */
+.pagetop {
+	color: #fff;
+	background-color: rgba(0,0,0,0.3);
+	text-decoration: none;
+	display: none;
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	font-size: 1.5rem;
+	width: 3.3rem;
+	height: 3.3rem;
+	line-height: 3.3rem;
+	border-radius: 3.3rem;
+	text-align: center;
+	cursor: pointer;
+}
+
+.pagetop:hover {
+	color: #fff !important;
+	background-color: black;
+	text-decoration: none;
+}
+/* レスポンシブデザイン for pad*/
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .header-left {
+    padding: 20px;
+    margin-right: 500px;
+  }
+  .header-right {
+    margin-top: 20px;
+  }
+  .fa.fa-facebook {
+    margin-left: 0;
+  }
+  .header-list {
+    margin-top: 20px;
+  }
+  .top-wrapper {
+    /* background-color: white; */
+    height: auto;
+  }
+  .container img {
+    max-width: 500px;
+    height: auto;
+  }
+  .text-wrapper, .runway-wrapper, .column-wrapper {
+    width: auto;
+  }
+  .spring, .autumn, .text-icon {
+    float: none;
+    height: auto;
+  }
+  .text-icon img {
+    width: 350px;
+    height: auto;
+  }
+  img {
+    float: none;
+    display: block;
+    margin:  0 auto
+  }
+  footer {
+    text-align: center;
+  }
+  .footer-list {
+    padding-left: 0;
+  }
+}
+/* レスポンシブデザイン for mobile phone*/
+@media only all and (max-width: 599px) {
+  .header-left {
+    padding: 20px;
+    /* margin-right: 500px; */
+    position: static;
+  }
+  .header-right {
+    margin-top: 20px;
+  }
+  .sns {
+    position: absolute;
+    /* top: 170px; */
+    right: 0;
+  }
+  .fa.fa-facebook {
+    margin-left: 0;
+  }
+  .header-list {
+    margin-top: 20px;
+  }
+  .top-wrapper {
+    /* background-color: white; */
+    height: auto;
+  }
+  .container img {
+    /* max-width: 280px; */
+    width: 100%;
+    height: auto;
+  }
+  .comment {
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 13px;
+    text-align: left;
+  }
+  .comment br {
+    display: none;
+  }
+  .text-wrapper, .runway-wrapper, .column-wrapper {
+    width: auto;
+  }
+  .spring, .autumn, .text-icon {
+    float: none;
+    height: auto;
+  }
+  .text-icon img {
+    width: 250px;
+    height: auto;
+
+  .number {
+    margin: 0 0 10px 0;
+  }
+  .number p {
+    padding: 0;
+  }
+  img {
+    float: none;
+    display: block;
+    margin:  0 auto
+  }
+  footer {
+    text-align: center;
+  }
+  .footer-list {
+    padding-left: 0;
+  }
+
+}
