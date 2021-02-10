@@ -1,0 +1,290 @@
+header {
+  background-color: black;
+}
+.header-left a,.header-right a {
+  color: white;
+}
+body {
+  margin: 0;
+}
+.container {
+  margin: 0 200px 200px 200px;
+  height: auto;
+  width: auto;
+}
+.container h2 {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 0;
+  padding-top: 50px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+.heading {
+  background-image: url(/Users/izumoryuma/Desktop/html_lesson/2020ssrebirth/verse.jpg);
+  background-size: 100% 100%;
+  height: auto;
+  width: auto;
+  margin-bottom: 100px;
+}
+.description {
+  /* width: 800px; */
+  margin: 0 auto;
+  margin: 0 150px 0 150px;
+}
+.subtitle {
+  margin: 80px 0 40px 50px;
+  padding-top: 50px;
+}
+.season-keyword {
+  background-image: url(/Users/izumoryuma/Desktop/html_lesson/2020ssrebirth/swatchlotus.jpg);
+  background-size: cover;
+  height: 500px;
+  width: auto;
+  position: relative;
+}
+h3, h4 {
+  margin: 100px 0 50px 0;
+  font-weight: lighter;
+  text-align: center;
+}
+.keyword {
+  font-weight: bold;
+  letter-spacing: 1px;
+  /* margin-left: 170px; */
+  position: absolute;
+  left: 150px;
+}
+.look-list {
+  width: auto;
+  height: auto;
+}
+.look-picture {
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.look-list li {
+  width: auto;
+  margin: 0 auto;
+  /* contnts無しだと画像が離れる */
+  display: contents;
+  /* contnts無しだと画像が離れる */
+}
+li {
+  list-style: none;
+}
+img {
+  width: 500px;
+  height: auto;
+}
+.season {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.item {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* 画像の縦伸びを防ぐ */
+  align-items: flex-start;
+}
+.number {
+  border-bottom: 1px solid #333;
+  margin: 60px 60px 10px 60px;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: #333;
+  margin: 0 60px 0 60px;
+}
+footer {
+  margin:  0 auto;
+  background-color: black;
+}
+.footer-right {
+  margin: 25px 0 110px 0;
+}
+.footer-right a {
+  color: white;
+  margin-right: 10px;
+}
+.link {
+  maragin-right: 30px;
+}
+/* 上に戻るボタン */
+.pagetop {
+	color: #fff;
+	background-color: rgba(0,0,0,0.3);
+	text-decoration: none;
+	display: none;
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	font-size: 1.5rem;
+	width: 3.3rem;
+	height: 3.3rem;
+	line-height: 3.3rem;
+	border-radius: 3.3rem;
+	text-align: center;
+	cursor: pointer;
+}
+.pagetop:hover {
+	color: black;
+	background-color: black;
+	text-decoration: none;
+}/* 上に戻るボタン */
+/* レスポンシブデザイン for pad*/
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .header-left {
+    padding: 20px;
+    margin-right: 500px;
+  }
+  .header-right {
+    margin-top: 20px;
+  }
+  .fa.fa-facebook {
+    margin-left: 0;
+  }
+  .header-list {
+    margin-top: 20px;
+  }
+  .top-wrapper {
+    /* background-color: white; */
+    height: auto;
+  }
+  .container {
+    margin: 0 auto;
+  }
+  .container img {
+    max-width: 100%;
+    height: auto;
+  }
+  .text-wrapper, .runway-wrapper, .column-wrapper {
+    width: auto;
+  }
+  .spring, .autumn, .text-icon {
+    float: none;
+    height: auto;
+  }
+  .text-icon img {
+    width: 100%;
+    height: auto;
+  }
+  img {
+    float: none;
+    display: block;
+    margin:  0 auto
+  }
+  .number p{
+    margin: 0;
+  }
+  footer {
+    text-align: center;
+  }
+  .footer-list {
+    padding-left: 0;
+  }
+}
+/* レスポンシブデザイン for mobile phone*/
+@media only all and (max-width: 599px) {
+  .header-left {
+    padding: 20px;
+    /* margin-right: 500px; */
+    position: static;
+  }
+  .header-right {
+    margin-top: 20px;
+  }
+  .sns {
+    position: absolute;
+    /* top: 170px; */
+    right: 0;
+  }
+  .fa.fa-facebook {
+    margin-left: 0;
+  }
+  .header-list {
+    margin-top: 20px;
+  }
+  .top-wrapper {
+    /* background-color: white; */
+    height: auto;
+  }
+  .container {
+    margin: 0 auto;
+  }
+  .container img {
+    /* max-width: 280px; */
+    /* width: 100%; */
+    height: auto;
+  }
+  .description {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .subtitle {
+    margin: 0 auto;
+  }
+  .keyword {
+    position: static;
+
+  }
+  .comment {
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 13px;
+    text-align: left;
+  }
+  .comment br {
+    display: none;
+  }
+  .text-wrapper, .runway-wrapper, .column-wrapper {
+    width: auto;
+  }
+  .spring, .autumn, .text-icon {
+    float: none;
+    height: auto;
+  }
+  .text-icon img {
+    width: 250px;
+    height: auto;
+  }
+  img {
+    float: none;
+    display: block;
+    margin:  0 auto
+  }
+  p {
+    padding: 0 50px 0 50px;
+  }
+  .item p {
+    margin: 0 0 60px 0;
+  }
+  .number {
+    /* margin: 60px 10px 10px 10px; */
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .number p {
+    padding: 0;
+    margin: 0 60px 10px 10px;
+  }
+  footer {
+    text-align: center;
+    height: 200px;
+  }
+  .footer-list {
+    padding-left: 0;
+  }
+
+}
