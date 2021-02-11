@@ -1,0 +1,176 @@
+.text-wrapper {
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+h1 {
+  text-align: center;
+}
+.unionjack, .skinhead {
+  height: auto;
+  width: 100%;
+}
+.runway-picture {
+  width: 1200px;
+  margin: 0 auto;
+}
+li img {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 370px;
+  height: auto;
+  margin: 10px;
+}
+li {
+    list-style: none;
+}
+footer {
+  clear: left;
+}
+/* 上に戻るボタン */
+.pagetop {
+	color: #fff;
+	background-color: rgba(0,0,0,0.3);
+	text-decoration: none;
+	display: none;
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	font-size: 1.5rem;
+	width: 3.3rem;
+	height: 3.3rem;
+	line-height: 3.3rem;
+	border-radius: 3.3rem;
+	text-align: center;
+	cursor: pointer;
+}
+
+.pagetop:hover {
+	color: #fff !important;
+	background-color: black;
+	text-decoration: none;
+}
+/* レスポンシブデザイン for pad*/
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .header-left {
+    padding: 20px;
+    margin-right: 500px;
+  }
+  .header-right {
+    margin-top: 20px;
+  }
+  .fa.fa-facebook {
+    margin-left: 0;
+  }
+  .header-list {
+    margin-top: 20px;
+  }
+  .top-wrapper {
+    /* background-color: white; */
+    height: auto;
+  }
+  .container {
+    margin: 0 auto;
+  }
+  .container h2, h3, h4 {
+    margin-bottom: 45px;
+  }
+  .container img {
+    max-width: 100%;
+    height: auto;
+  }
+  .text-wrapper, .runway-wrapper, .column-wrapper {
+    width: auto;
+  }
+  .runway-picture {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+  li img {
+    clear: left;
+    margin: 0;
+    width: 100%;
+  }
+  img {
+    float: none;
+    display: block;
+    margin:  0 auto
+  }
+  footer {
+    text-align: center;
+  }
+  .footer-list {
+    padding-left: 0;
+  }
+}
+/* レスポンシブデザイン for mobile phone*/
+@media only all and (max-width: 599px) {
+  .header-left {
+    padding: 20px;
+    /* margin-right: 500px; */
+    position: static;
+  }
+  .header-right {
+    margin-top: 20px;
+  }
+  .sns {
+    position: absolute;
+    /* top: 170px; */
+    right: 0;
+  }
+  .fa.fa-facebook {
+    margin-left: 0;
+  }
+  .header-list {
+    margin-top: 20px;
+  }
+  .top-wrapper {
+    /* background-color: white; */
+    height: auto;
+  }
+  .container {
+    margin: 0 auto;
+  }
+  .container h2, h3, h4 {
+    margin-bottom: 45px;
+  }
+  .container img {
+    /* max-width: 280px; */
+    /* width: 100%; */
+    height: auto;
+  }
+  .runway-picture {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+  .text-wrapper, .runway-wrapper, .column-wrapper {
+    width: auto;
+  }
+  li img {
+    clear: left;
+    margin: 0;
+    width: 100%;
+    height: auto;
+  }
+  img {
+    float: none;
+    display: block;
+    margin:  0 auto
+  }
+  footer {
+    text-align: center;
+    height: 200px;
+  }
+  .footer-list {
+    padding-left: 0;
+  }
+
+}
