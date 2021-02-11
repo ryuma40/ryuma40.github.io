@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <title>2016awantithese</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="2016-17awantithese.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/82cd1883ca.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+    jQuery(document).ready(function() {
+    var offset = 400;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > offset) {
+    jQuery('.pagetop').fadeIn(duration);
+    } else {
+    jQuery('.pagetop').fadeOut(duration);
+    }
+    });
+    jQuery('.pagetop').click(function(event) {
+    event.preventDefault();
+    jQuery('html, body').animate({scrollTop: 0}, duration);
+    return false;
+    })
+    });
+    </script>
+  </head>
+  <body>
+    <header>
+        <div class="header-left">
+          <a href="index.html"><h1>DESIGN  PORTFOLIO</h1></a>
+        </div>
+        <div class="header-right">
+          <div class="sns">
+            <a href="https://www.facebook.com/ryuma.izumo"><i class="btn fa fa-facebook"></i></a>
+            <a href="https://www.facebook.com/ryuma.izumo"><i class="btn fa fa-instagram"></i></a>
+            <a href="https://www.pinterest.jp/bacillusbrains7/boards"><i class="btn fa fa-pinterest"></i></a>
+          </div>
+          <ul class="header-list">
+            <li class="link"><a href="philosophy.html">Philosophy</a></li>
+            <li class="link"><a href="about.html">About</a></li>
+            <li class="link"><a href="#">Column</a></li>
+            <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+          </ul>
+        </div>
+    </header>
+    <div class="text-wrapper">
+      <h1 class="section-title">Antithese</h1>
+      <img src="unionjack.jpg" class="unionjack" alt="">
+      <img src="skinhead.jpg" class="skinhead" alt="">
+      <ul class="runway-picture">
+          <li><img src="runway_00010_x.jpg" alt=""></li>
+          <li><img src="runway_00020_x.jpg" alt=""></li>
+          <li><img src="runway_00030_x.jpg" alt=""></li>
+          <li><img src="runway_00040_x.jpg" alt=""></li>
+          <li><img src="runway_00050_x.jpg" alt=""></li>
+          <li><img src="runway_00060_x.jpg" alt=""></li>
+          <li><img src="runway_00070_x.jpg" alt=""></li>
+          <li><img src="runway_00080_x.jpg" alt=""></li>
+          <li><img src="runway_00090_x.jpg" alt=""></li>
+          <li><img src="runway_00100_x.jpg" alt=""></li>
+          <li><img src="runway_00110_x.jpg" alt=""></li>
+          <li><img src="runway_00120_x.jpg" alt=""></li>
+          <li><img src="runway_00130_x.jpg" alt=""></li>
+          <li><img src="runway_00140_x.jpg" alt=""></li>
+          <li><img src="runway_00150_x.jpg" alt=""></li>
+          <li><img src="runway_00160_x.jpg" alt=""></li>
+          <li><img src="runway_00170_x.jpg" alt=""></li>
+          <li><img src="runway_00180_x.jpg" alt=""></li>
+          <li><img src="runway_00190_x.jpg" alt=""></li>
+          <li><img src="runway_00200_x.jpg" alt=""></li>
+          <li><img src="runway_00210_x.jpg" alt=""></li>
+          <li><img src="runway_00220_x.jpg" alt=""></li>
+          <li><img src="runway_00230_x.jpg" alt=""></li>
+          <li><img src="runway_00240_x.jpg" alt=""></li>
+          <li><img src="runway_00250_x.jpg" alt=""></li>
+          <li><img src="runway_00260_x.jpg" alt=""></li>
+          <li><img src="runway_00270_x.jpg" alt=""></li>
+          <li><img src="runway_00280_x.jpg" alt=""></li>
+          <li><img src="runway_00290_x.jpg" alt=""></li>
+          <li><img src="runway_00300_x.jpg" alt=""></li>
+      </ul>
+    </div>
+    <footer>
+      <div class="footer-right">
+        <ul class="footer-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about/about.html">About</a></li>
+          <li class="link"><a href="#">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <div class="pagetop">↑</div>
+  </body>
+</html>
