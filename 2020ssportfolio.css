@@ -144,7 +144,7 @@ footer {
 	background-color: black;
 	text-decoration: none;
 }/* 上に戻るボタン */
-/* レスポンシブデザイン for pad*/
+/* レスポンシブデザイン for */
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
   .header-left {
     padding: 20px;
