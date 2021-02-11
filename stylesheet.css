@@ -205,7 +205,7 @@ footer {
 	background-color: black;
 	text-decoration: none;
 }
-/* レスポンシブデザイン for pad*/
+/* レスポンシブデザイン for tablet*/
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
   html {
     font-size: 71.4286%;
@@ -279,7 +279,7 @@ footer {
     margin-top: 20px;
   }
   .top-wrapper {
-    /* background-color: white; */
+    background-color: white;
     height: auto;
   }
   .container img {
