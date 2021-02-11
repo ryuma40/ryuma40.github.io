@@ -21,7 +21,7 @@ body {
   letter-spacing: 1px;
 }
 .heading {
-  background-image: url(/Users/izumoryuma/Desktop/html_lesson/2020ssrebirth/verse.jpg);
+  background-image: url(verse.jpg);
   background-size: 100% 100%;
   height: auto;
   width: auto;
@@ -37,7 +37,7 @@ body {
   padding-top: 50px;
 }
 .season-keyword {
-  background-image: url(/Users/izumoryuma/Desktop/html_lesson/2020ssrebirth/swatchlotus.jpg);
+  background-image: url(swatchlotus.jpg);
   background-size: cover;
   height: 500px;
   width: auto;
