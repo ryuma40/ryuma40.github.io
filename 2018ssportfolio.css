@@ -116,8 +116,8 @@ footer {
 	background-color: black;
 	text-decoration: none;
 }
-/* レスポンシブデザイン for pad*/
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
+/* レスポンシブデザイン for tablet*/
+@media (min-width: 600px) and (max-width: 1024px) {
   .header-left {
     padding: 20px;
     margin-right: 500px;
@@ -165,7 +165,7 @@ footer {
   }
 }
 /* レスポンシブデザイン for mobile phone*/
-@media only all and (max-width: 599px) {
+@media (max-width: 599px) {
   .header-left {
     padding: 20px;
     /* margin-right: 500px; */
