@@ -1,6 +1,9 @@
 header {
   background-color: black;
 }
+.header-left {
+ color: white;
+}
 .header-left a,.header-right a {
   color: white;
 }
