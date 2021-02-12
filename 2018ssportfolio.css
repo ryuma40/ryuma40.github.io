@@ -181,6 +181,9 @@ footer {
   .header-right {
     margin-top: 20px;
   }
+  .link {
+    margin: 0;
+  }
   .sns {
     position: absolute;
     /* top: 170px; */
@@ -213,7 +216,6 @@ footer {
   }
   .keyword {
     position: static;
-
   }
   .comment {
     width: 250px;
