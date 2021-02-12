@@ -85,6 +85,10 @@ footer {
   .text-wrapper, .runway-wrapper, .column-wrapper {
     width: auto;
   }
+	.jungle {
+  height: auto;
+	width: 100%
+}
   .runway-picture {
     width: 100%;
     margin: 0 auto;
@@ -142,6 +146,10 @@ footer {
     /* max-width: 280px; */
     /* width: 100%; */
     height: auto;
+  }
+	.jungle {
+  height: auto;
+	width: 100%
   }
   .runway-picture {
     width: 100%;
