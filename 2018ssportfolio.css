@@ -142,6 +142,13 @@ footer {
     max-width: 100%;
     height: auto;
   }
+  .spalding-look-list {
+    padding-left: 0;
+  }
+  .spalding-look-list img, ,item img {
+    width: 100%;
+    
+  }
   .text-wrapper, .runway-wrapper, .column-wrapper {
     width: auto;
   }
