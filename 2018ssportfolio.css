@@ -24,7 +24,8 @@ body {
   text-align: center;
 }
 .concept {
-  width: 1000px;
+  width: 100%;
+  margin: 0 auto;
 }
 p {
   font-family: 'Lato', sans-serif;
@@ -39,6 +40,7 @@ h3, h4 {
 }
 .spalding-look-list {
   display: flex;
+  align-items:  flex-start;
   justify-content: center;
   flex-wrap: wrap;
   /* display: flex;
@@ -110,4 +112,146 @@ footer {
 	color: #fff !important;
 	background-color: black;
 	text-decoration: none;
+}
+/* レスポンシブデザイン for pad*/
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .header-left {
+    padding: 20px;
+    margin-right: 500px;
+  }
+  .header-right {
+    margin-top: 20px;
+  }
+  .fa.fa-facebook {
+    margin-left: 0;
+  }
+  .header-list {
+    margin-top: 20px;
+  }
+  .top-wrapper {
+    /* background-color: white; */
+    height: auto;
+  }
+  .container {
+    margin: 0 auto;
+  }
+  .container img {
+    max-width: 100%;
+    height: auto;
+  }
+  .text-wrapper, .runway-wrapper, .column-wrapper {
+    width: auto;
+  }
+  .text-icon img {
+    width: 100%;
+    height: auto;
+  }
+  img {
+    float: none;
+    display: block;
+    margin:  0 auto
+  }
+  .number p{
+    margin: 0;
+  }
+  footer {
+    text-align: center;
+  }
+  .footer-list {
+    padding-left: 0;
+  }
+}
+/* レスポンシブデザイン for mobile phone*/
+@media only all and (max-width: 599px) {
+  .header-left {
+    padding: 20px;
+    /* margin-right: 500px; */
+    position: static;
+  }
+  .header-right {
+    margin-top: 20px;
+  }
+  .sns {
+    position: absolute;
+    /* top: 170px; */
+    right: 0;
+  }
+  .fa.fa-facebook {
+    margin-left: 0;
+  }
+  .header-list {
+    margin-top: 20px;
+  }
+  .top-wrapper {
+    /* background-color: white; */
+    height: auto;
+  }
+  .container {
+    margin: 0 auto;
+  }
+  .container img {
+    /* max-width: 280px; */
+    /* width: 100%; */
+    height: auto;
+  }
+  .description {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .subtitle {
+    margin: 0 auto;
+  }
+  .keyword {
+    position: static;
+
+  }
+  .comment {
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 13px;
+    text-align: left;
+  }
+  .comment br {
+    display: none;
+  }
+  .text-wrapper, .runway-wrapper, .column-wrapper {
+    width: auto;
+  }
+  .spring, .autumn, .text-icon {
+    float: none;
+    height: auto;
+  }
+  .text-icon img {
+    width: 250px;
+    height: auto;
+  }
+  img {
+    float: none;
+    display: block;
+    margin:  0 auto
+  }
+  p {
+    padding: 0 50px 0 50px;
+  }
+  .item p {
+    margin: 0 0 60px 0;
+  }
+  .number {
+    /* margin: 60px 10px 10px 10px; */
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .number p {
+    padding: 0;
+    margin: 0 60px 10px 10px;
+  }
+  footer {
+    text-align: center;
+    height: 200px;
+  }
+  .footer-list {
+    padding-left: 0;
+  }
+
 }
