@@ -58,6 +58,7 @@ h3, h4 {
 .look-list {
   width: auto;
   height: auto;
+	texr-align: center;
 }
 .look-picture {
   padding-left: 0px;
