@@ -59,6 +59,7 @@ h3, h4 {
   width: auto;
   height: auto;
 	text-align: center;
+	padding-left: 0;
 }
 .look-picture {
   padding-left: 0px;
