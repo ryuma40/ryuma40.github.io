@@ -172,6 +172,7 @@ header {
 footer {
   height: 300px;
   width: auto;
+	clear: left;
 }
 .footer-right {
   display: inline-block;
