@@ -199,6 +199,7 @@ footer {
     padding-right: 0;
   }
   footer {
+		clear: left;
     text-align: center;
   }
   .footer-list {
