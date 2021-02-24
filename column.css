@@ -37,6 +37,9 @@ p {
   letter-spacing: 1px;
   color: #333;
 }
+.sentence, .maxim {
+  margin: 0 auto;
+}
 footer {
   margin:  0 auto;
   background-color: black;
