@@ -195,8 +195,8 @@ footer {
   .text-wrapper, .column-wrapper {
     width: auto;
   }
-  .text-icon img {
-    width: 250px;
+  .contents img {
+    width: 100%;
     height: auto;
   }
   img {
