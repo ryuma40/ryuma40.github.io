@@ -110,17 +110,9 @@ footer {
   p {
     height: auto;
   }
-  .text-wrapper, .runway-wrapper, .column-wrapper {
-    width: auto;
-  }
-  .spring, .autumn, .text-icon {
-    float: none;
-    height: auto;
-  }
-  .text-icon img {
-    width: 350px;
-    height: auto;
-  }
+	.sentence {
+		margin: 0 auto;
+	}
   img {
     float: none;
     display: block;
@@ -190,12 +182,8 @@ footer {
   .comment br {
     display: none;
   }
-  .text-wrapper, .runway-wrapper, .column-wrapper {
+  .text-wrapper, .column-wrapper {
     width: auto;
-  }
-  .spring, .autumn, .text-icon {
-    float: none;
-    height: auto;
   }
   .text-icon img {
     width: 250px;
