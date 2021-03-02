@@ -132,6 +132,10 @@ footer {
   br {
     display: none;
   }
+	.maxim {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
   footer {
     text-align: center;
   }
@@ -208,6 +212,9 @@ footer {
     margin:  0 auto;
     padding-right: 0;
   }
+	.maxim {
+		padding: 0;
+	}
   footer {
 		clear: left;
     text-align: center;
