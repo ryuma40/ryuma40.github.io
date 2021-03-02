@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <!--スマホ対応用viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>column</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="column.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/82cd1883ca.js" crossorigin="anonymous"></script>
+    <!--/* 上に戻るボタン */-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+    jQuery(document).ready(function() {
+    var offset = 400;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > offset) {
+    jQuery('.pagetop').fadeIn(duration);
+    } else {
+    jQuery('.pagetop').fadeOut(duration);
+    }
+    });
+    jQuery('.pagetop').click(function(event) {
+    event.preventDefault();
+    jQuery('html, body').animate({scrollTop: 0}, duration);
+    return false;
+    })
+    });
+    </script>
+    <!--/* 上に戻るボタン */-->
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <a href="index.html"><h1>DESIGN PORTFOLIO</h1></a>
+      </div>
+      <div class="header-right">
+        <div class="sns">
+          <a href="https://www.facebook.com/ryuma.izumo"><i class="btn fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com"><i class="btn fa fa-instagram"></i></a>
+          <a href="https://www.pinterest.jp/bacillusbrains7/boards/"><i class="btn fa fa-pinterest"></i></a>
+          <a href="https://line.me/ti/p/AbXX-OrPS3"><i class="btn fab fa-line"></i></a>
+        </div>
+        <ul class="header-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="container">
+      <h2>"Column"</h2>
+      <div class="contents">
+        <h3 class="theme">'適者生存その道の話し'</h3>
+        <img src="fullmoon.jpg" alt="fullmoon"><br><br><br><br>
+        <p class="sentence">
+          最近、仕事中にその日が誕生日だったもしくは命日だったアーティストの曲を聴きながら仕事をしている。
+          著名なアーティストには短命な者も数多くいる。
+          マイルスデイビス、カートコベイン、ジェームズディーン・・・・
+
+
+          若い頃、成り上がって早く死にたいと思うことがあった。
+          長生きして老けた自分を世に晒して何が嬉しいのだろう、朽ちていく自分を見たくなくこの世から
+          居なくなりたい。
+          そんな風に思うことがあった。
+          齢を重ねるにつれ長く生きたいと思うようになり他人に気を遣うことが少なくなる。
+
+          その道の話では、
+          赤土1メートル黒土2メートルで埋めると土砂が流れても死体が出て来ないという。
+          江戸時代、けじめをとって自害した人は埋められこの世から抹消された。
+          強い物が勝つんじゃなく、生き残った者が強い。
+          結局それが、最強。
+        </p>
+        <h4 class="maxim">
+        生き残る種とは、最も強いものではない。最も知的なものでもない。<br>
+        それは、変化に最もよく適応したものである。<br>
+
+        <br>
+        Charles Darwin
+        </h4>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-right">
+        <ul class="footer-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <!--/* 上に戻るボタン */-->
+    <div class="pagetop">↑</div>
+    <!--/* 上に戻るボタン */-->
+  </body>
+  </html>
