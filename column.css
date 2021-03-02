@@ -108,6 +108,9 @@ footer {
     height: auto;
     padding-bottom: 50px;
   }
+	.contents {
+		width: 100%;
+	}
   .comment {
     width: 80%;
     margin: 0 auto;
