@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <!--スマホ対応用viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>column</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="column.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/82cd1883ca.js" crossorigin="anonymous"></script>
+    <!--/* 上に戻るボタン */-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+    jQuery(document).ready(function() {
+    var offset = 400;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > offset) {
+    jQuery('.pagetop').fadeIn(duration);
+    } else {
+    jQuery('.pagetop').fadeOut(duration);
+    }
+    });
+    jQuery('.pagetop').click(function(event) {
+    event.preventDefault();
+    jQuery('html, body').animate({scrollTop: 0}, duration);
+    return false;
+    })
+    });
+    </script>
+    <!--/* 上に戻るボタン */-->
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <a href="index.html"><h1>DESIGN PORTFOLIO</h1></a>
+      </div>
+      <div class="header-right">
+        <div class="sns">
+          <a href="https://www.facebook.com/ryuma.izumo"><i class="btn fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com"><i class="btn fa fa-instagram"></i></a>
+          <a href="https://www.pinterest.jp/bacillusbrains7/boards/"><i class="btn fa fa-pinterest"></i></a>
+          <a href="https://line.me/ti/p/AbXX-OrPS3"><i class="btn fab fa-line"></i></a>
+        </div>
+        <ul class="header-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="container">
+      <h2>"Column"</h2>
+      <div class="contents">
+        <h3 class="theme">'Johnの命日'</h3>
+        <img src="Hw-darwin.jpg" alt="Hw-darwin"><br><br><br><br>
+        <p class="sentence">
+        12月8日。<br>
+        今日はジョンレノンの命日。<br>
+        まさか、ファンから射殺されるとは思っていなかったであろうジョン。いや、ジョンレノンならそれも予感していたうえであのようなサインをしたのか…。<br>
+
+        トランプ大統領が中国と貿易摩擦を繰り広げて早三ヶ月が経つ。21世紀らしい喧嘩。<br>
+        ベトナム戦争の時のように目に見えた血は流さないが、末端では朽ちゆく人々は沢山いる。<br>
+        日本という国に生まれ、貧富の差が薄い世の中で育ち、ブルーカラーとホワイトカラーの差も大して感じずにこれまで生きてきた。
+        かたや、大国なれど、貧富の差が大きい両国。<br>
+        もし、ジョンが生きていたら、なんと言っただろうか。今でも戦争反対を唱えていただろうか。<br>
+        きっと、TRUMP政権に真っ向から立ち向かっていただろう。<br>
+        あなたの願いはまだ完全に叶えられていないけれど、代弁者は育っています。<br>
+        今日だけは、バーボンをやめてスコッチにしよう…。<br>
+        <br>
+        <br>
+        <br>
+        R.I.P.  john,
+        </p>
+        <h4 class="maxim">
+        生き残る種とは、最も強いものではない。最も知的なものでもない。<br>
+        それは、変化に最もよく適応したものである。<br>
+
+        <br>
+        <h5>John Lennon</h5>
+        </h4>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-right">
+        <ul class="footer-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <!--/* 上に戻るボタン */-->
+    <div class="pagetop">↑</div>
+    <!--/* 上に戻るボタン */-->
+  </body>
+  </html>
