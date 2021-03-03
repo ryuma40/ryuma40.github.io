@@ -133,12 +133,20 @@ header {
   margin-right: auto;
   margin-top: 50px;
 }
+.season-icon {
+	padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  float: left;
+}
 .text-icon {
   padding-bottom: 30px;
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
   float: left;
+	height: 600px;
 }
 .text-icon img {
   width: 350px;
