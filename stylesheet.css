@@ -148,7 +148,7 @@ header {
   float: left;
 	height: 600px;
 }
-.text-icon img {
+.text-icon img, .season-icon img {
   width: 350px;
   height: auto;
 }
