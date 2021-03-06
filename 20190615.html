@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <!--スマホ対応用viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>column</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="column.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/82cd1883ca.js" crossorigin="anonymous"></script>
+    <!--/* 上に戻るボタン */-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+    jQuery(document).ready(function() {
+    var offset = 400;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > offset) {
+    jQuery('.pagetop').fadeIn(duration);
+    } else {
+    jQuery('.pagetop').fadeOut(duration);
+    }
+    });
+    jQuery('.pagetop').click(function(event) {
+    event.preventDefault();
+    jQuery('html, body').animate({scrollTop: 0}, duration);
+    return false;
+    })
+    });
+    </script>
+    <!--/* 上に戻るボタン */-->
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <a href="index.html"><h1>DESIGN PORTFOLIO</h1></a>
+      </div>
+      <div class="header-right">
+        <div class="sns">
+          <a href="https://www.facebook.com/ryuma.izumo"><i class="btn fa fa-facebook"></i></a>
+          <a href="https://www.facebook.com/ryuma.izumo"><i class="btn fa fa-instagram"></i></a>
+          <a href="https://www.pinterest.jp/bacillusbrains7/boards/"><i class="btn fa fa-pinterest"></i></a>
+          <a href="https://line.me/ti/p/AbXX-OrPS3"><i class="btn fab fa-line"></i></a>
+        </div>
+        <ul class="header-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="container">
+      <h2>"Column"</h2>
+      <div class="contents">
+        <h3 class="theme">'審美眼'</h3>
+        <img src="fullmoon.jpg" alt="fullmoon"><br><br><br><br>
+        <p class="sentence">
+        今の20代の若者達にライターノーツと言ってもなんだかわからないだろう。<br>
+        僕らが10代20代の頃には音を聞く事と同じくらい楽しみにしていたライナー。<br>
+        音楽評論家の意見に一喜一憂賛否両論意見を持ち、ミュージシャンに深く心酔した。気に入った曲は一日中リピートし目覚ましにしカバーした。<br>
+        <br>
+        <br>
+         もうかれこれ長いこと音楽をCDやレコードで聴いていない。<br>
+        音楽を聞くことに関してはかなり便利になったが、その分造作に疎くなった。<br>
+        気になった音はその場で調べてその場で聞け、その場で調べられる。<br>
+        20年前なら、気になったらCD屋かレコード屋に行き、店主と話して当時の話を聞き当時のカルチャーに想いを馳せた。<br>
+        <br>
+        <br>
+        先日、引っ越しを機に重い腰を上げ断捨離をした。断捨離と言っても元々物を捨てられる人間では無いので、フリマアプリや身内に譲るなどの行為で断捨離。<br>
+        捨てた物はほとんど無い。<br>
+        そんな中、一生捨てられない物を見つけた。元々自分の所有物だが結婚や出産を機に押し入れの奥深くに眠っていたお宝。<br>
+        デジタル全盛になり利便性は格段に向上したが得られない物を再発見した。<br>
+        <br>
+        臭い。<br>
+        質感。<br>
+        <br>
+        そう、デジタル化しても得られない物がある。<br>
+        </p>
+        <h4 class="maxim">
+        見て、触って、嗅げ。<br>
+        <br>
+        <h5>山本 耀司</h5>
+        </h4>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-right">
+        <ul class="footer-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <!--/* 上に戻るボタン */-->
+    <div class="pagetop">↑</div>
+    <!--/* 上に戻るボタン */-->
+  </body>
+  </html>
