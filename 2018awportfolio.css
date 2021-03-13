@@ -208,6 +208,7 @@ footer {
     height: auto;
   }
   .description {
+		width: auto;
     margin: 0 auto;
     margin-bottom: 50px;
   }
