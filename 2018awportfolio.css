@@ -148,17 +148,8 @@ footer {
     max-width: 100%;
     height: auto;
   }
-  .text-wrapper, .runway-wrapper, .column-wrapper {
-    width: auto;
-  }
-  .spring, .autumn, .text-icon {
-    float: none;
-    height: auto;
-  }
-  .text-icon img {
-    width: 100%;
-    height: auto;
-  }
+	.item p {
+		padding: 0 15px 0 15px;
   img {
     float: none;
     display: block;
