@@ -211,6 +211,9 @@ footer {
     margin: 0 auto;
     margin-bottom: 50px;
   }
+	.description br {
+		display: none;
+	}
   .subtitle {
     margin: 0 auto;
   }
