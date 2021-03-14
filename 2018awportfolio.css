@@ -153,6 +153,9 @@ footer {
 	}
 	.item p {
 		padding: 0 15px 0 15px;
+	.description {
+		padding-left: 40px;
+	}
   img {
     float: none;
     display: block;
