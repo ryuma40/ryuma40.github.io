@@ -32,7 +32,7 @@ body {
   padding:50px 0 50px 0;
 }
 .description {
-  width: 800px;
+  width: auto;
   margin: 0 auto;
 }
 .look-list {
